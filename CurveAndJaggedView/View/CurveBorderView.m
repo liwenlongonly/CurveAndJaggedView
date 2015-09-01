@@ -126,9 +126,7 @@ static NSInteger DefaultJaggedEdgeVerticalVertexDistance = 3;
                 if (type == kCurveBorderTypeJagged) {
                     if (shouldMoveUp) {
                         x += verticalDisplacement;
-                    }
-                    else
-                    {
+                    }else{
                         x -= verticalDisplacement;
                     }
                     [path addLineToPoint:CGPointMake(x, y)];
@@ -138,9 +136,7 @@ static NSInteger DefaultJaggedEdgeVerticalVertexDistance = 3;
                     if (shouldMoveUp)
                     {
                         newX += verticalDisplacement;
-                    }
-                    else
-                    {
+                    }else{
                         newX -= verticalDisplacement;
                     }
                     [path addQuadCurveToPoint:CGPointMake(x+verticalDisplacement, y) controlPoint:CGPointMake(newX , y-horizontalDisplacement/2.0)];

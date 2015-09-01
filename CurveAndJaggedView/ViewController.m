@@ -34,6 +34,7 @@
 {
     _curveView1.fillColor = self.view.backgroundColor;
     [_curveView1  setCurveBorderType:kCurveBorderTypeJagged curveBorderDirection:kCurveBorderDirectionAll];
+    _curveView1.strokeColor = [UIColor redColor];
     
     _curveView2.fillColor = self.view.backgroundColor;
     [_curveView2  setCurveBorderType:kCurveBorderTypeJagged curveBorderDirection:kCurveBorderDirectionVertical];
