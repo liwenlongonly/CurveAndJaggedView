@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC17C0EC1B95449C00584985 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17C0EB1B95449C00584985 /* main.m */; };
+		DC17C0EF1B95449C00584985 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17C0EE1B95449C00584985 /* AppDelegate.m */; };
+		DC17C0F21B95449C00584985 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17C0F11B95449C00584985 /* ViewController.m */; };
+		DC17C0F51B95449C00584985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC17C0F31B95449C00584985 /* Main.storyboard */; };
+		DC17C0F71B95449C00584985 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC17C0F61B95449C00584985 /* Images.xcassets */; };
+		DC17C0FA1B95449C00584985 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC17C0F81B95449C00584985 /* LaunchScreen.xib */; };
+		DC17C1061B95449C00584985 /* CurveAndJaggedViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17C1051B95449C00584985 /* CurveAndJaggedViewTests.m */; };
+		DC17C1121B95451200584985 /* CurveBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC17C1111B95451200584985 /* CurveBorderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC17C1001B95449C00584985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC17C0DE1B95449C00584985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC17C0E51B95449C00584985;
+			remoteInfo = CurveAndJaggedView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC17C0E61B95449C00584985 /* CurveAndJaggedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurveAndJaggedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC17C0EA1B95449C00584985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC17C0EB1B95449C00584985 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC17C0ED1B95449C00584985 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC17C0EE1B95449C00584985 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC17C0F01B95449C00584985 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC17C0F11B95449C00584985 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC17C0F41B95449C00584985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC17C0F61B95449C00584985 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC17C0F91B95449C00584985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC17C0FF1B95449C00584985 /* CurveAndJaggedViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurveAndJaggedViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC17C1041B95449C00584985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC17C1051B95449C00584985 /* CurveAndJaggedViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurveAndJaggedViewTests.m; sourceTree = "<group>"; };
+		DC17C1101B95451200584985 /* CurveBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveBorderView.h; sourceTree = "<group>"; };
+		DC17C1111B95451200584985 /* CurveBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveBorderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC17C0E31B95449C00584985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC17C0FC1B95449C00584985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC17C0DD1B95449C00584985 = {
+			isa = PBXGroup;
+			children = (
+				DC17C0E81B95449C00584985 /* CurveAndJaggedView */,
+				DC17C1021B95449C00584985 /* CurveAndJaggedViewTests */,
+				DC17C0E71B95449C00584985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC17C0E71B95449C00584985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC17C0E61B95449C00584985 /* CurveAndJaggedView.app */,
+				DC17C0FF1B95449C00584985 /* CurveAndJaggedViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC17C0E81B95449C00584985 /* CurveAndJaggedView */ = {
+			isa = PBXGroup;
+			children = (
+				DC17C10F1B95451200584985 /* View */,
+				DC17C0ED1B95449C00584985 /* AppDelegate.h */,
+				DC17C0EE1B95449C00584985 /* AppDelegate.m */,
+				DC17C0F01B95449C00584985 /* ViewController.h */,
+				DC17C0F11B95449C00584985 /* ViewController.m */,
+				DC17C0F31B95449C00584985 /* Main.storyboard */,
+				DC17C0F61B95449C00584985 /* Images.xcassets */,
+				DC17C0F81B95449C00584985 /* LaunchScreen.xib */,
+				DC17C0E91B95449C00584985 /* Supporting Files */,
+			);
+			path = CurveAndJaggedView;
+			sourceTree = "<group>";
+		};
+		DC17C0E91B95449C00584985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC17C0EA1B95449C00584985 /* Info.plist */,
+				DC17C0EB1B95449C00584985 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC17C1021B95449C00584985 /* CurveAndJaggedViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC17C1051B95449C00584985 /* CurveAndJaggedViewTests.m */,
+				DC17C1031B95449C00584985 /* Supporting Files */,
+			);
+			path = CurveAndJaggedViewTests;
+			sourceTree = "<group>";
+		};
+		DC17C1031B95449C00584985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC17C1041B95449C00584985 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC17C10F1B95451200584985 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC17C1101B95451200584985 /* CurveBorderView.h */,
+				DC17C1111B95451200584985 /* CurveBorderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC17C0E51B95449C00584985 /* CurveAndJaggedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC17C1091B95449C00584985 /* Build configuration list for PBXNativeTarget "CurveAndJaggedView" */;
+			buildPhases = (
+				DC17C0E21B95449C00584985 /* Sources */,
+				DC17C0E31B95449C00584985 /* Frameworks */,
+				DC17C0E41B95449C00584985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurveAndJaggedView;
+			productName = CurveAndJaggedView;
+			productReference = DC17C0E61B95449C00584985 /* CurveAndJaggedView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC17C0FE1B95449C00584985 /* CurveAndJaggedViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC17C10C1B95449C00584985 /* Build configuration list for PBXNativeTarget "CurveAndJaggedViewTests" */;
+			buildPhases = (
+				DC17C0FB1B95449C00584985 /* Sources */,
+				DC17C0FC1B95449C00584985 /* Frameworks */,
+				DC17C0FD1B95449C00584985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC17C1011B95449C00584985 /* PBXTargetDependency */,
+			);
+			name = CurveAndJaggedViewTests;
+			productName = CurveAndJaggedViewTests;
+			productReference = DC17C0FF1B95449C00584985 /* CurveAndJaggedViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC17C0DE1B95449C00584985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "李文龙";
+				TargetAttributes = {
+					DC17C0E51B95449C00584985 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DC17C0FE1B95449C00584985 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DC17C0E51B95449C00584985;
+					};
+				};
+			};
+			buildConfigurationList = DC17C0E11B95449C00584985 /* Build configuration list for PBXProject "CurveAndJaggedView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC17C0DD1B95449C00584985;
+			productRefGroup = DC17C0E71B95449C00584985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC17C0E51B95449C00584985 /* CurveAndJaggedView */,
+				DC17C0FE1B95449C00584985 /* CurveAndJaggedViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC17C0E41B95449C00584985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC17C0F51B95449C00584985 /* Main.storyboard in Resources */,
+				DC17C0FA1B95449C00584985 /* LaunchScreen.xib in Resources */,
+				DC17C0F71B95449C00584985 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC17C0FD1B95449C00584985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC17C0E21B95449C00584985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC17C0F21B95449C00584985 /* ViewController.m in Sources */,
+				DC17C0EF1B95449C00584985 /* AppDelegate.m in Sources */,
+				DC17C1121B95451200584985 /* CurveBorderView.m in Sources */,
+				DC17C0EC1B95449C00584985 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC17C0FB1B95449C00584985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC17C1061B95449C00584985 /* CurveAndJaggedViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC17C1011B95449C00584985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC17C0E51B95449C00584985 /* CurveAndJaggedView */;
+			targetProxy = DC17C1001B95449C00584985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC17C0F31B95449C00584985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC17C0F41B95449C00584985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC17C0F81B95449C00584985 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC17C0F91B95449C00584985 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC17C1071B95449C00584985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC17C1081B95449C00584985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC17C10A1B95449C00584985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CurveAndJaggedView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC17C10B1B95449C00584985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CurveAndJaggedView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC17C10D1B95449C00584985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CurveAndJaggedViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurveAndJaggedView.app/CurveAndJaggedView";
+			};
+			name = Debug;
+		};
+		DC17C10E1B95449C00584985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CurveAndJaggedViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurveAndJaggedView.app/CurveAndJaggedView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC17C0E11B95449C00584985 /* Build configuration list for PBXProject "CurveAndJaggedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC17C1071B95449C00584985 /* Debug */,
+				DC17C1081B95449C00584985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC17C1091B95449C00584985 /* Build configuration list for PBXNativeTarget "CurveAndJaggedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC17C10A1B95449C00584985 /* Debug */,
+				DC17C10B1B95449C00584985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC17C10C1B95449C00584985 /* Build configuration list for PBXNativeTarget "CurveAndJaggedViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC17C10D1B95449C00584985 /* Debug */,
+				DC17C10E1B95449C00584985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC17C0DE1B95449C00584985 /* Project object */;
+}

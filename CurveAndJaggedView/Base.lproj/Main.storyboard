@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hpl-eB-vOt" userLabel="View1" customClass="CurveBorderView">
+                                <rect key="frame" x="200" y="28" width="200" height="97"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="OCD-Xw-88D"/>
+                                    <constraint firstAttribute="width" constant="200" id="YJO-9v-W4Y"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4GC-ih-zcS" userLabel="View2" customClass="CurveBorderView">
+                                <rect key="frame" x="200" y="145" width="200" height="97"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.53333333329999999" blue="0.043137254899999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="NBU-Ys-6Iv"/>
+                                    <constraint firstAttribute="height" constant="97" id="uUo-qw-RQp"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cfJ-Kb-qDl" userLabel="View3" customClass="CurveBorderView">
+                                <rect key="frame" x="200" y="257" width="200" height="97"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.42352941179999998" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="cUP-eG-3zU"/>
+                                    <constraint firstAttribute="height" constant="97" id="nEe-KU-H8a"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HFP-iC-R48" userLabel="View4" customClass="CurveBorderView">
+                                <rect key="frame" x="200" y="374" width="200" height="97"/>
+                                <color key="backgroundColor" red="0.41960784309999999" green="0.46274509800000002" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="CC6-RN-15E"/>
+                                    <constraint firstAttribute="height" constant="97" id="VWm-Q3-2ID"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="4GC-ih-zcS" secondAttribute="centerX" id="2Xp-5R-fRz"/>
+                            <constraint firstAttribute="centerX" secondItem="Hpl-eB-vOt" secondAttribute="centerX" id="KWy-qz-MlW"/>
+                            <constraint firstItem="HFP-iC-R48" firstAttribute="top" secondItem="cfJ-Kb-qDl" secondAttribute="bottom" constant="20" id="MEC-cx-9ho"/>
+                            <constraint firstAttribute="centerX" secondItem="HFP-iC-R48" secondAttribute="centerX" id="PT6-lN-v5g"/>
+                            <constraint firstItem="Hpl-eB-vOt" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="elm-9x-Pkh"/>
+                            <constraint firstItem="cfJ-Kb-qDl" firstAttribute="top" secondItem="4GC-ih-zcS" secondAttribute="bottom" constant="15" id="hRD-TN-Rva"/>
+                            <constraint firstItem="4GC-ih-zcS" firstAttribute="top" secondItem="Hpl-eB-vOt" secondAttribute="bottom" constant="20" id="k06-L2-5eo"/>
+                            <constraint firstAttribute="centerX" secondItem="cfJ-Kb-qDl" secondAttribute="centerX" id="lgC-6h-9rc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="curveView1" destination="Hpl-eB-vOt" id="MnH-g6-0Bz"/>
+                        <outlet property="curveView2" destination="4GC-ih-zcS" id="8Ln-Gl-gHM"/>
+                        <outlet property="curveView3" destination="cfJ-Kb-qDl" id="zY2-zO-54G"/>
+                        <outlet property="curveView4" destination="HFP-iC-R48" id="oXM-Ua-6gp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
